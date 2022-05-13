@@ -276,3 +276,5 @@ $ cat ./flag
 yay_f1ag_aft3r_pwning
 ```
 Had fun and learned a lot solving this and i hope this has been useful for someone.
+Source for malloc internals: https://sourceware.org/git/?p=glibc.git;a=blob;f=malloc/malloc.c;h=994a23248e258501979138f3b07785045a60e69f;hb=HEAD
+
