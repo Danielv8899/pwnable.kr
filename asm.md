@@ -1,7 +1,7 @@
 ### pwnable.kr - ASM
 
 
-# Callenge
+# Challenge
 ```c
 #include <stdio.h>
 #include <string.h>
