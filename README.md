@@ -51,7 +51,7 @@ Writeups for pwnable.kr (only from toddler's bottle)
  - [x] rootkit
  - [ ] dos4fun
  - [ ] ascii
- - [ ] aeg
+ - [x] aeg
  - [ ] coin2
  - [ ] maze
  - [ ] wtf
