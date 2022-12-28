@@ -217,7 +217,7 @@ case 3:
 				delete w;
 				break;
 ```
-We see the order these classes get instanciated and freed, and we know malloc will allocate by FIFO, that means our payload will get allocated into w first, becasue it's last to be freed.
+We see the order these classes get instanciated and freed, and we know malloc will allocate by LIFO, that means our payload will get allocated into w first, becasue it's last to be freed.
 The solution is simple, allocate twice:
 ```bash
 ~/pwnable/UAF$ ./uaf 8 ./payload 
