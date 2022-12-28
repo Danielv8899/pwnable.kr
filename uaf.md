@@ -145,7 +145,7 @@ Lets see what happens after we call 3, which deletes the instanced classes.
 
 ```
 We can see that the contents of the previously used heap memory is now deleted, meaning it is now free to write to.
-So how memory allocation works? According to https://reverseengineering.stackexchange.com/questions/15044/how-does-new-operator-internally-work-in-c , new and delete[] are wrappers to malloc() and free() respectively, and how malloc works in linux? According to https://reverseengineering.stackexchange.com/questions/15033/how-does-glibc-malloc-work , if requested allocation size is below or equal to the previously freed allocation, it will prioritize that same block (FIFO).
+So how memory allocation works? According to https://reverseengineering.stackexchange.com/questions/15044/how-does-new-operator-internally-work-in-c , new and delete[] are wrappers to malloc() and free() respectively, and how malloc works in linux? According to https://reverseengineering.stackexchange.com/questions/15033/how-does-glibc-malloc-work , if requested allocation size is below or equal to the previously freed allocation, it will prioritize that same block (LIFO).
 So theoretically, if we allocate the same size as the freed classes, we will overwrite the freed heap memory, and could possibly execute code.
 according to the same question, we can see that the allocated memory is written right before the application data, which means in 64 bit systems, would be 0x6014ee0 -0x8
 ```
