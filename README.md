@@ -22,23 +22,23 @@ Writeups for pwnable.kr (only from toddler's bottle)
  - [x] uaf
  - [x] memcpy
  - [x] asm
- - [ ] unlink
+ - [x] unlink
  - [x] blukat
  - [x] horcruxes
 
 ### Rookiss
 
  - [x] brain fuck
- - [ ] md5 calculator
- - [ ] simple login
+ - [x] md5 calculator
+ - [x] simple login
  - [x] otp
  - [x] ascii_easy
  - [x] tiny_easy
- - [ ] fsb
- - [ ] dragon
+ - [x] fsb
+ - [x] dragon
  - [ ] fix
  - [x] syscall
- - [ ] crypto1
+ - [x] crypto1
  - [x] echo1
  - [ ] echo2
  - [ ] rsa calculator
