@@ -36,11 +36,11 @@ Writeups for pwnable.kr (only from toddler's bottle)
  - [x] tiny_easy
  - [x] fsb
  - [x] dragon
- - [ ] fix
+ - [x] fix
  - [x] syscall
  - [x] crypto1
  - [x] echo1
- - [ ] echo2
+ - [x] echo2
  - [ ] rsa calculator
  - [ ] note
  - [ ] alloca
@@ -71,7 +71,7 @@ Writeups for pwnable.kr (only from toddler's bottle)
  - [ ] tiny
  - [ ] softmmu
  - [ ] towelroot
- - [ ] nuclear
+ - [x] nuclear
  - [x] malware
  - [x] exploitable
  - [ ] tiny_hard
