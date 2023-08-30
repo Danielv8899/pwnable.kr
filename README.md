@@ -60,7 +60,7 @@ Writeups for pwnable.kr (only from toddler's bottle)
  - [ ] cmd3
  - [ ] elf
  - [ ] lfh
- - [ ] lokihardt
+ - [x] lokihardt
  - [ ] asg
  - [ ] hunter
  - [ ] mipstake
@@ -77,6 +77,6 @@ Writeups for pwnable.kr (only from toddler's bottle)
  - [ ] tiny_hard
  - [x] kcrc
  - [ ] exynos
- - [ ] combabo calculator
+ - [x] combabo calculator
  - [ ] pwnsandbox
- - [ ] crcgen
+ - [x] crcgen
