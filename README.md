@@ -41,25 +41,25 @@ Writeups for pwnable.kr (only from toddler's bottle)
  - [x] crypto1
  - [x] echo1
  - [x] echo2
- - [ ] rsa calculator
- - [ ] note
+ - [x] rsa calculator
+ - [x] note
  - [x] alloca
- - [ ] loveletter
+ - [x] loveletter
 
 ### Grotesque
 
  - [x] rootkit
  - [ ] dos4fun
- - [ ] ascii
+ - [x] ascii
  - [x] aeg
  - [ ] coin2
- - [ ] maze
- - [ ] wtf
+ - [x] maze
+ - [x] wtf
  - [ ] sudoku
  - [ ] starcraft
  - [ ] cmd3
  - [x] elf
- - [ ] lfh
+ - [x] lfh
  - [x] lokihardt
  - [ ] asg
  - [ ] hunter
@@ -68,13 +68,13 @@ Writeups for pwnable.kr (only from toddler's bottle)
 ### Hacker's Secret
 
  - [x] unexploitable
- - [ ] tiny
+ - [x] tiny
  - [x] softmmu
  - [ ] towelroot
  - [x] nuclear
  - [x] malware
  - [x] exploitable
- - [ ] tiny_hard
+ - [x] tiny_hard
  - [x] kcrc
  - [x] exynos
  - [x] combabo calculator
